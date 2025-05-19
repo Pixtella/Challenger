@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG" />
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG" />
+  <meta property="og:url" content="URL OF THE WEBSITE" />
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Challenger</title>
+  <link rel="icon" type="image/x-icon" href="static/images/demon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Challenger: Affordable Adversarial Driving Video Generation
+            </h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://rzyxu.github.io/" target="_blank">Zhiyuan Xu</a><sup>1,4*</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://arlo0o.github.io/libohan.github.io/" target="_blank">Bohan Li</a><sup>1,5*</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://c7w.tech/about/" target="_blank">Huan-ang Gao</a><sup>1</sup>,
+              </span>
+              <span class="author-block">
+                Mingju Gao<sup>1</sup>
+              </span>
+              <br>
+              <span class="author-block">
+                Yong Chen<sup>6</sup>,
+              </span>
+              <span class="author-block">
+                Ming Liu<sup>6</sup>,
+              </span>
+              <span class="author-block">
+                Chenxu Yan<sup>6</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://hangzhaomit.github.io/" target="_blank">Hang Zhao</a><sup>2</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://www.fshuo.tech/" target="_blank">Shuo Feng</a><sup>3</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://sites.google.com/view/fromandto/" target="_blank">Hao Zhao</a><sup>1†</sup>
+              </span>
+              </div>
+
+              <div class="is-size-7 publication-authors">
+                <span class="author-block">
+                    <sup>1</sup> Institute for AI Industry Research (AIR), Tsinghua University <br>
+                    <sup>2</sup> Institute for Interdisciplinary Information Sciences (IIIS), Tsinghua University <br>
+                    <sup>3</sup> Department of Automation, Tsinghua University <br>
+                    <sup>4</sup> University of Chinese Academy of Sciences &nbsp; 
+                    <sup>5</sup> Shanghai Jiao Tong University &nbsp; 
+                    <sup>6</sup> Geely Auto
+                </span>
+                <span class="eql-cntrb"><br><sup>*</sup>Equal Contribution &nbsp; <sup>†</sup>Corresponding author</span>
+              </div>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <span class="link-block">
+                  <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+
+                <span class="link-block">
+                  <a href="https://huggingface.co/datasets/Pixtella/Adv-nuSc" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-database"></i>
+                    </span>
+                    <span>Dataset</span>
+                  </a>
+                </span>
+
+                <span class="link-block">
+                  <a href="https://github.com/Pixtella/Challenger" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>arXiv</span>
+                  </a>
+                </span>
+
+                <br>
+                <br>
+                <div class="col-sm-12" style="text-align: center;">
+                  <h3>Table of Contents</h3>
+                  <ul style="list-style-type: none; padding: 0;">
+                    <li><a href="#banner">Introductory Video</a></li>
+                    <li><a href="#abstract">Abstract</a></li>
+                    <li><a href="#video_gallery_1_title">Video Gallery 1</a></li>
+                    <li><a href="#video_gallery_2_title">Video Gallery 2</a></li>
+                    <!-- <li><a href="#text_supp">Textual Supplementary Material</a></li> -->
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Teaser video-->
+  <section class="hero teaser">
+    <div class="container is-max-desktop">
+            <div class="columns is-centered has-text-centered">
+
+      <h2 class="title is-3">Introductory Video</h2>
+      </div>
+      <div class="hero-body">
+        <video poster="" id="banner" controls height="100%">
+          <!-- Your video here -->
+          <source src="static/videos/banner_video.mp4" type="video/mp4">
+        </video>
+        <!-- <h2 class="subtitle has-text-centered">
+          A short introduction to Challenger.
+        </h2> -->
+      </div>
+    </div>
+  </section>
+  <!-- End teaser video -->
+
+  <!-- Paper abstract -->
+  <section class="section hero is-light" id="abstract">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              Generating photorealistic driving videos has seen significant progress recently, but current methods
+              largely focus on ordinary, non-adversarial scenarios. Meanwhile, efforts to generate adversarial driving
+              scenarios often operate on abstract trajectory or BEV representations, falling short of delivering
+              realistic sensor data that can truly stress-test autonomous driving (AD) systems. In this work, we
+              introduce Challenger, a framework that produces physically plausible yet photorealistic adversarial
+              driving videos. Generating such videos poses a fundamental challenge: it requires jointly optimizing over
+              the space of traffic interactions and high-fidelity sensor observations. Challenger makes this affordable
+              through two techniques: (1) a physics-aware multi-round trajectory refinement process that narrows down
+              candidate adversarial maneuvers, and (2) a tailored trajectory scoring function that encourages realistic
+              yet adversarial behavior while maintaining compatibility with downstream video synthesis. As tested on the
+              nuScenes dataset, Challenger generates a diverse range of aggressive driving scenarios—including cut-ins,
+              sudden lane changes, tailgating, and blind spot intrusions—and renders them into multiview photorealistic
+              videos. Extensive evaluations show that these scenarios significantly increase the collision rate of
+              state-of-the-art end-to-end AD models (UniAD, VAD, SparseDrive, and DiffusionDrive), and importantly,
+              adversarial behaviors discovered for one model often transfer to others.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End paper abstract -->
+
+  <section clas="hero is-large" id="video_gallery_1_title">
+    <div class="container" style="width: 100vw;">
+      <br>
+      <h2 class="title is-3 has-text-centered">Video Gallery</h2>
+      <h4 class="subtitle has-text-centered">Examples from the Adv-nuSc Dataset</h4>
+      <p class="has-text-centered">Due to file size limitations, videos are compressed and quality might be affected.
+      </p>
+
+      <br>
+    </div>
+  </section>
+
+  <div class="video_2" id="video_gallery_1" style="width: 100%">
+    <div class="video_wrapper">
+      <div class="video_container">
+        <video autoplay muted loop controls>
+          <source src="static/videos/sadv/01.mp4" type="video/mp4">
+        </video>
+        <div class="caption">
+          <div>Realistic adversarial driving scene.</div>
+        </div>
+        <p class="has-text-centered">
+          Overtaking from the left lane
+        </p>
+      </div>
+    </div>
+
+    <div class="video_wrapper">
+      <div class="video_container">
+        <video autoplay muted loop controls>
+          <source src="static/videos/sadv/02.mp4" type="video/mp4">
+        </video>
+        <div class="caption">
+          <div>Realistic adversarial driving scene.</div>
+        </div>
+        <p class="has-text-centered">
+          Short-distance following
+        </p>
+      </div>
+    </div>
+
+    <div class="video_wrapper">
+      <div class="video_container">
+        <video autoplay muted loop controls>
+          <source src="static/videos/sadv/03.mp4" type="video/mp4">
+        </video>
+        <div class="caption">
+          <div>Realistic adversarial driving scene.</div>
+        </div>
+        <p class="has-text-centered">
+          Approaching from the left lane
+        </p>
+      </div>
+    </div>
+
+    <div class="video_wrapper">
+      <div class="video_container">
+        <video autoplay muted loop controls>
+          <source src="static/videos/sadv/04.mp4" type="video/mp4">
+        </video>
+        <div class="caption">
+          <div>Realistic adversarial driving scene.</div>
+        </div>
+        <p class="has-text-centered">
+          Frontal encounter, U-turn, and surpassing
+        </p>
+      </div>
+    </div>
+
+    <div class="video_wrapper">
+      <div class="video_container">
+        <video autoplay muted loop controls>
+          <source src="static/videos/sadv/05.mp4" type="video/mp4">
+        </video>
+        <div class="caption">
+          <div>Realistic adversarial driving scene.</div>
+        </div>
+        <p class="has-text-centered">
+          Approaching from behind
+        </p>
+      </div>
+    </div>
+
+    <div class="video_wrapper">
+      <div class="video_container">
+        <video autoplay muted loop controls>
+          <source src="static/videos/sadv/06.mp4" type="video/mp4">
+        </video>
+        <div class="caption">
+          <div>Realistic adversarial driving scene.</div>
+        </div>
+        <p class="has-text-centered">
+          Traversing in front of the ego vehicle
+        </p>
+      </div>
+    </div>
+
+    <div class="video_wrapper">
+      <div class="video_container">
+        <video autoplay muted loop controls>
+          <source src="static/videos/sadv/07.mp4" type="video/mp4">
+        </video>
+        <div class="caption">
+          <div>Realistic adversarial driving scene.</div>
+        </div>
+        <p class="has-text-centered">
+          Zooming past from the left lane
+        </p>
+      </div>
+    </div>
+
+    <div class="video_wrapper">
+      <div class="video_container">
+        <video autoplay muted loop controls>
+          <source src="static/videos/sadv/08.mp4" type="video/mp4">
+        </video>
+        <div class="caption">
+          <div>Realistic adversarial driving scene.</div>
+        </div>
+        <p class="has-text-centered">
+          Yielding, tailgating, and overtaking
+        </p>
+      </div>
+    </div>
+
+    <div class="video_wrapper">
+      <div class="video_container">
+        <video autoplay muted loop controls>
+          <source src="static/videos/sadv/09.mp4" type="video/mp4">
+        </video>
+        <div class="caption">
+          <div>Realistic adversarial driving scene.</div>
+        </div>
+        <p class="has-text-centered">
+          Coming from the side and attempting to overtake
+        </p>
+      </div>
+    </div>
+
+    <div class="video_wrapper">
+      <div class="video_container">
+        <video autoplay muted loop controls>
+          <source src="static/videos/sadv/10.mp4" type="video/mp4">
+        </video>
+        <div class="caption">
+          <div>Realistic adversarial driving scene.</div>
+        </div>
+        <p class="has-text-centered">
+          Attempted cut-in
+        </p>
+      </div>
+    </div>
+
+    <div class="video_wrapper">
+      <div class="video_container">
+        <video autoplay muted loop controls>
+          <source src="static/videos/sadv/11.mp4" type="video/mp4">
+        </video>
+        <div class="caption">
+          <div>Realistic adversarial driving scene.</div>
+        </div>
+        <p class="has-text-centered">
+          U-turn at an intersection
+        </p>
+      </div>
+    </div>
+
+    <div class="video_wrapper">
+      <div class="video_container">
+        <video autoplay muted loop controls>
+          <source src="static/videos/sadv/12.mp4" type="video/mp4">
+        </video>
+        <div class="caption">
+          <div>Realistic adversarial driving scene.</div>
+        </div>
+        <p class="has-text-centered">
+          Starting from roadside and surpassing from the left lane
+        </p>
+      </div>
+    </div>
+
+    <div class="video_wrapper">
+      <div class="video_container">
+        <video autoplay muted loop controls>
+          <source src="static/videos/sadv/13.mp4" type="video/mp4">
+        </video>
+        <div class="caption">
+          <div>Realistic adversarial driving scene.</div>
+        </div>
+        <p class="has-text-centered">
+          Abrupt start from a parking lot
+        </p>
+      </div>
+    </div>
+
+    <div class="video_wrapper">
+      <div class="video_container">
+        <video autoplay muted loop controls>
+          <source src="static/videos/sadv/14.mp4" type="video/mp4">
+        </video>
+        <div class="caption">
+          <div>Realistic adversarial driving scene.</div>
+        </div>
+        <p class="has-text-centered">
+          Lane weaving in a traffic jam
+        </p>
+      </div>
+    </div>
+
+    <div class="video_wrapper">
+      <div class="video_container">
+        <video autoplay muted loop controls>
+          <source src="static/videos/sadv/15.mp4" type="video/mp4">
+        </video>
+        <div class="caption">
+          <div>Realistic adversarial driving scene.</div>
+        </div>
+        <p class="has-text-centered">
+          Tailgating and attempted overtaking
+        </p>
+      </div>
+    </div>
+
+    <div class="video_wrapper">
+      <div class="video_container">
+        <video autoplay muted loop controls>
+          <source src="static/videos/sadv/16.mp4" type="video/mp4">
+        </video>
+        <div class="caption">
+          <div>Realistic adversarial driving scene.</div>
+        </div>
+        <p class="has-text-centered">
+          Cut-in from the left lane
+        </p>
+      </div>
+    </div>
+
+    <div class="video_wrapper">
+      <div class="video_container">
+        <video autoplay muted loop controls>
+          <source src="static/videos/sadv/17.mp4" type="video/mp4">
+        </video>
+        <div class="caption">
+          <div>Realistic adversarial driving scene.</div>
+        </div>
+        <p class="has-text-centered">
+          Cut-in from the left lane
+        </p>
+      </div>
+    </div>
+
+    <div class="video_wrapper">
+      <div class="video_container">
+        <video autoplay muted loop controls>
+          <source src="static/videos/sadv/18.mp4" type="video/mp4">
+        </video>
+        <div class="caption">
+          <div>Realistic adversarial driving scene.</div>
+        </div>
+        <p class="has-text-centered">
+          Starting from roadside and surpassing from the left lane
+        </p>
+      </div>
+    </div>
+
+    <div class="video_wrapper">
+      <div class="video_container">
+        <video autoplay muted loop controls>
+          <source src="static/videos/sadv/19.mp4" type="video/mp4">
+        </video>
+        <div class="caption">
+          <div>Realistic adversarial driving scene.</div>
+        </div>
+        <p class="has-text-centered">
+          Frontal encounter, U-turn and tailgating in the night
+        </p>
+      </div>
+    </div>
+    
+    
+  </div>
+
+  <section class="section hero is-light" id="video_gallery_2_title">
+    <div class="container" style="width: 100vw;">
+      <br>
+      <h2 class="title is-3 has-text-centered">Video Gallery 2</h2>
+      <h4 class="subtitle has-text-centered">Examples with multiple adversarial vehicles</h4>
+      <p class="has-text-centered">Due to file size limitations, videos are compressed and quality might be affected.
+      </p>
+      <br>
+    </div>
+  </section>
+
+  <div class="video_2" id="video_gallery_2" style="width: 100%">
+    <div class="video_wrapper">
+      <div class="video_container">
+      <video autoplay muted loop controls>
+        <source src="static/videos/madv/01.mp4" type="video/mp4">
+      </video>
+      <div class="caption">
+        <div>Realistic adversarial driving scene.</div>
+      </div>
+      <p class="has-text-centered">
+        Approaching from the left
+      </p>
+      </div>
+    </div>
+
+    <div class="video_wrapper">
+      <div class="video_container">
+      <video autoplay muted loop controls>
+        <source src="static/videos/madv/02.mp4" type="video/mp4">
+      </video>
+      <div class="caption">
+        <div>Realistic adversarial driving scene.</div>
+      </div>
+      <p class="has-text-centered">
+        Complicated maneuvers
+      </p>
+      </div>
+    </div>
+
+    <div class="video_wrapper">
+      <div class="video_container">
+      <video autoplay muted loop controls>
+        <source src="static/videos/madv/03.mp4" type="video/mp4">
+      </video>
+      <div class="caption">
+        <div>Realistic adversarial driving scene.</div>
+      </div>
+      <p class="has-text-centered">
+        Surpassing from the left lane
+      </p>
+      </div>
+    </div>
+
+    <div class="video_wrapper">
+      <div class="video_container">
+      <video autoplay muted loop controls>
+        <source src="static/videos/madv/04.mp4" type="video/mp4">
+      </video>
+      <div class="caption">
+        <div>Realistic adversarial driving scene.</div>
+      </div>
+      <p class="has-text-centered">
+        Approaching from behind and from right
+      </p>
+      </div>
+    </div>
+
+    <div class="video_wrapper">
+      <div class="video_container">
+      <video autoplay muted loop controls>
+        <source src="static/videos/madv/05.mp4" type="video/mp4">
+      </video>
+      <div class="caption">
+        <div>Realistic adversarial driving scene.</div>
+      </div>
+      <p class="has-text-centered">
+        Approaching from left and right
+      </p>
+      </div>
+    </div>
+
+    <div class="video_wrapper">
+      <div class="video_container">
+      <video autoplay muted loop controls>
+        <source src="static/videos/madv/06.mp4" type="video/mp4">
+      </video>
+      <div class="caption">
+        <div>Realistic adversarial driving scene.</div>
+      </div>
+      <p class="has-text-centered">
+        Complicated maneuvers
+      </p>
+      </div>
+    </div>
+
+    <div class="video_wrapper">
+      <div class="video_container">
+      <video autoplay muted loop controls>
+        <source src="static/videos/madv/07.mp4" type="video/mp4">
+      </video>
+      <div class="caption">
+        <div>Realistic adversarial driving scene.</div>
+      </div>
+      <p class="has-text-centered">
+        Leapfroging
+      </p>
+      </div>
+    </div>
+
+    <div class="video_wrapper">
+      <div class="video_container">
+      <video autoplay muted loop controls>
+        <source src="static/videos/madv/08.mp4" type="video/mp4">
+      </video>
+      <div class="caption">
+        <div>Realistic adversarial driving scene.</div>
+      </div>
+      <p class="has-text-centered">
+        Complicated maneuvers
+      </p>
+      </div>
+    </div>
+
+    <div class="video_wrapper">
+      <div class="video_container">
+      <video autoplay muted loop controls>
+        <source src="static/videos/madv/09.mp4" type="video/mp4">
+      </video>
+      <div class="caption">
+        <div>Realistic adversarial driving scene.</div>
+      </div>
+      <p class="has-text-centered">
+        Zooming past from the right and brake
+      </p>
+      </div>
+    </div>
+
+    <div class="video_wrapper">
+      <div class="video_container">
+      <video autoplay muted loop controls>
+        <source src="static/videos/madv/10.mp4" type="video/mp4">
+      </video>
+      <div class="caption">
+        <div>Realistic adversarial driving scene.</div>
+      </div>
+      <p class="has-text-centered">
+        Zooming past and cut-in
+      </p>
+      </div>
+    </div>
+
+    <div class="video_wrapper">
+      <div class="video_container">
+      <video autoplay muted loop controls>
+        <source src="static/videos/madv/11.mp4" type="video/mp4">
+      </video>
+      <div class="caption">
+        <div>Realistic adversarial driving scene.</div>
+      </div>
+      <p class="has-text-centered">
+        Lane blocking
+      </p>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+  <!-- Image carousel -->
+  <!-- <section class="hero is-small">
+    <div class="hero-body">
+      <div class="container">
+        <div id="results-carousel" class="carousel results-carousel">
+          <div class="item">
+            <img src="static/images/carousel1.jpg" alt="MY ALT TEXT" />
+            <h2 class="subtitle has-text-centered">
+              First image description.
+            </h2>
+          </div>
+          <div class="item">
+            <img src="static/images/carousel2.jpg" alt="MY ALT TEXT" />
+            <h2 class="subtitle has-text-centered">
+              Second image description.
+            </h2>
+          </div>
+          <div class="item">
+            <img src="static/images/carousel3.jpg" alt="MY ALT TEXT" />
+            <h2 class="subtitle has-text-centered">
+              Third image description.
+            </h2>
+          </div>
+          <div class="item">
+            <img src="static/images/carousel4.jpg" alt="MY ALT TEXT" />
+            <h2 class="subtitle has-text-centered">
+              Fourth image description.
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+  <!-- End image carousel -->
+
+
+
+
+  <!-- Youtube video -->
+  <!-- <section class="hero is-small is-light">
+    <div class="hero-body">
+      <div class="container">
+        <h2 class="title is-3">Video Presentation</h2>
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+
+            <div class="publication-video">
+              <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+  <!-- End youtube video -->
+
+
+  <!-- Video carousel -->
+  <!-- <section class="hero is-small">
+    <div class="hero-body">
+      <div class="container">
+        <h2 class="title is-3">Another Carousel</h2>
+        <div id="results-carousel" class="carousel results-carousel">
+          <div class="item item-video1">
+            <video poster="" id="video1" autoplay controls muted loop height="100%">
+              <source src="static/videos/carousel1.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="item item-video2">
+            <video poster="" id="video2" autoplay controls muted loop height="100%">
+              <source src="static/videos/carousel2.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="item item-video3">
+            <video poster="" id="video3" autoplay controls muted loop height="100%">\
+              <source src="static/videos/carousel3.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+  <!-- End video carousel -->
+
+
+
+
+
+
+  <!-- Paper poster -->
+  <!-- <section class="hero is-small is-light" id="text_supp">
+    <div class="hero-body">
+      <div class="container">
+        <h2 class="title has-text-centered">Textual Supplementary Material</h2>
+
+        <iframe src="supp.pdf" width="100%" height="550">
+        </iframe>
+
+      </div>
+    </div>
+  </section> -->
+  <!--End paper poster -->
+
+
+  <!--BibTex citation -->
+  <!-- <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>BibTex Code Here</code></pre>
+    </div>
+  </section> -->
+  <!--End BibTex citation -->
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+
+            <p>
+              This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template"
+                target="_blank">Academic Project Page Template</a> which was adopted from the <a
+                href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+              You are free to borrow the source code of this website, we just ask that you link back to this page in the
+              footer. <br> This website is licensed under a <a rel="license"
+                href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+                Commons Attribution-ShareAlike 4.0 International License</a>.
+            </p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Statcounter tracking code -->
+
+  <!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+  <!-- End of Statcounter Code -->
+
+</body>
+
+</html>
