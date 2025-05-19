@@ -4,9 +4,11 @@ This repository contains the code for the following work:
 
 > Challenger: Affordable Adversarial Driving Video Generation
 >
-> [Zhiyuan Xu](https://rzyxu.github.io/)<sup>\*</sup>, [Bohan Li](https://arlo0o.github.io/libohan.github.io/)<sup>\*</sup>, [Huan-ang Gao](https://c7w.tech/about/), Mingju Gao, Yong Chen, Ming Liu, Chenxu Yan, [Hang Zhao](https://hangzhaomit.github.io/), [Shuo Feng](https://www.fshuo.tech/), [Hao Zhao](https://sites.google.com/view/fromandto/)<sup>†</sup>  
+> Authors: [Zhiyuan Xu](https://rzyxu.github.io/)<sup>\*</sup>, [Bohan Li](https://arlo0o.github.io/libohan.github.io/)<sup>\*</sup>, [Huan-ang Gao](https://c7w.tech/about/), Mingju Gao, Yong Chen, Ming Liu, Chenxu Yan, [Hang Zhao](https://hangzhaomit.github.io/), [Shuo Feng](https://www.fshuo.tech/), [Hao Zhao](https://sites.google.com/view/fromandto/)<sup>†</sup>  
 > 
-> <img height="50" src="assets/tsinghua.png">
+> <div align="center">
+>  <img width="33%" src="assets/tsinghua.png">
+> </div>
 
 <br>
 <div align="center">
@@ -15,8 +17,24 @@ This repository contains the code for the following work:
   <a href="https://huggingface.co/datasets/Pixtella/Adv-nuSc"><img alt='Dataset' src="https://img.shields.io/badge/Dataset-Adv--nuSc-blue"></a>
   <a href="https://pixtella.github.io/Challenger/"><img alt='Project Page' src="https://img.shields.io/badge/Webpage-Challenger-green"></a>
 </div>
-
 <br>
+
+<p align="center">
+  <div align="center">Leapfroging</div>
+  <img src="assets/madv/07.gif" width="100%" style="max-width: 100%; height: auto;" />
+  <div align="center">Overtaking from the left lane</div>
+  <img src="assets/sadv/01.gif" width="100%" style="max-width: 100%; height: auto;" />
+  <div align="center">Frontal encounter, U-turn, and surpassing</div>
+  <img src="assets/sadv/04.gif" width="100%" style="max-width: 100%; height: auto;" />
+  <div align="center">Zooming past from the left lane</div>
+  <img src="assets/sadv/07.gif" width="100%" style="max-width: 100%; height: auto;" />
+</p>
+
+## Introductory Video
+
+<div align="center">
+  <video src="assets/banner_video.mp4" controls style="max-width: 100%; height: auto;"></video>
+</div>
 
 ## Abstract
 
