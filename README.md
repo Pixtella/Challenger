@@ -90,7 +90,7 @@ This script extracts 3D bounding boxes and BEV road maps from the nuScenes datas
 
 Set up the environment for trajectory generation using `atg/environment.yml`.
 
-This repository already provides a pretrained trajectory diffusion model at `{CODE_ROOT}/atg/ckpts/atg/ckpts/checkpoints/ig360_adv.ckpt` and is ready to use.
+This repository already provides a pretrained trajectory diffusion model at `{CODE_ROOT}/atg/ckpts/checkpoints/ig360_adv.ckpt` and is ready to use.
 
 However, if you want to train from scratch, download the nuPlan dataset and follow the instructions in [Diffusion-ES](https://github.com/bhyang/diffusion-es). After training, convert the checkpoint using the `convert_ckpt()` function in`atg/advtg/deb.py`. The converted checkpoint will be used by the Adversarial Trajectory Generator.
 
