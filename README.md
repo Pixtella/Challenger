@@ -4,7 +4,7 @@ This repository contains the code for the following work:
 
 > Challenger: Affordable Adversarial Driving Video Generation
 >
-> [Zhiyuan Xu](https://rzyxu.github.io/)<sup>\*</sup>, [Bohan Li](https://arlo0o.github.io/libohan.github.io/)<sup>\*</sup>, [Huan-ang Gao](https://c7w.tech/about/), Mingju Ga, Yong Chen, Ming Liu, Chenxu Yan, [Hang Zhao](https://hangzhaomit.github.io/), [Shuo Feng](https://www.fshuo.tech/), [Hao Zhao](https://sites.google.com/view/fromandto/)<sup>†</sup>  
+> [Zhiyuan Xu](https://rzyxu.github.io/)<sup>\*</sup>, [Bohan Li](https://arlo0o.github.io/libohan.github.io/)<sup>\*</sup>, [Huan-ang Gao](https://c7w.tech/about/), Mingju Gao, Yong Chen, Ming Liu, Chenxu Yan, [Hang Zhao](https://hangzhaomit.github.io/), [Shuo Feng](https://www.fshuo.tech/), [Hao Zhao](https://sites.google.com/view/fromandto/)<sup>†</sup>  
 > 
 > <img height="50" src="assets/tsinghua.png">
 
@@ -146,7 +146,7 @@ Prepare a txt file with the following format:
 /path/to/neural/renderer/output/of/scene3 /path/to/adversarial/trajectory/generator/output/of/scene3 suffix3
 ...
 ```
-where `suffix1`, `suffix2`, will be appended to the original names of scenes to distinguish them (since you can generate multiple adversarial scenes based on the same original scene). We recommend using unique suffixes for each scene to avoid conflict.
+where `suffix1`, `suffix2` will be appended to the original names of scenes to distinguish them (since you can generate multiple adversarial scenes based on the same original scene). We recommend using unique suffixes for each scene to avoid conflict.
 
 Then, specify the path to this file, the path to the original nuScenes dataset, and the output directory in `rd/dmp_ad.py` 
 
