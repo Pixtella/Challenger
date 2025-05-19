@@ -32,9 +32,7 @@ This repository contains the code for the following work:
 
 ## Introductory Video
 
-<div align="center">
-  <video src="https://pixtella.github.io/Challenger/static/videos/banner_video.mp4" controls style="max-width: 100%; height: auto;"></video>
-</div>
+https://github.com/user-attachments/assets/9f381ebe-8911-49c5-9615-099655335e4c
 
 ## Abstract
 
