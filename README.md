@@ -33,7 +33,7 @@ This repository contains the code for the following work:
 ## Introductory Video
 
 <div align="center">
-  <video src="assets/banner_video.mp4" controls style="max-width: 100%; height: auto;"></video>
+  <video src="https://pixtella.github.io/Challenger/static/videos/banner_video.mp4" controls style="max-width: 100%; height: auto;"></video>
 </div>
 
 ## Abstract
