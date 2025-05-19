@@ -1,0 +1,15 @@
+esexp*
+con_exp/
+res/
+*.pyc
+__pycache__/
+*.pkl
+*.mp4
+exp*
+ca.tar.gz
+oscenes
+scenes_in
+scenes_out
+samples_out
+txts/
+plots/
