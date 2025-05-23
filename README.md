@@ -13,7 +13,7 @@ This repository contains the code for the following work:
 <br>
 <div align="center">
   <img src="https://img.shields.io/github/license/Pixtella/Challenger" alt="License">
-  <a href="https://arxiv.org/abs/"><img alt='arXiv' src="https://img.shields.io/badge/arXiv--red"></a>
+  <a href="https://arxiv.org/abs/2505.15880"><img alt='arXiv' src="https://img.shields.io/badge/arXiv-2505.15880-red"></a>
   <a href="https://huggingface.co/datasets/Pixtella/Adv-nuSc"><img alt='Dataset' src="https://img.shields.io/badge/Dataset-Adv--nuSc-blue"></a>
   <a href="https://pixtella.github.io/Challenger/"><img alt='Project Page' src="https://img.shields.io/badge/Webpage-Challenger-green"></a>
 </div>
