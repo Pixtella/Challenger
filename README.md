@@ -185,6 +185,19 @@ data_infos = list(sorted(data["infos"], key=lambda e: (e["scene_token"], e["time
 4. Specify the path to the generated adversarial dataset in `{ROOT_OF_UNIAD}/projects/configs/stage2_e2e/base_e2e.py` and execute `{ROOT_OF_UNIAD}tools/uniad_create_data.sh` to extract metadata.
 5. Run `{ROOT_OF_UNIAD}/tools/uniad_dist_eval.sh` to evaluate.
 
+## Citation
+
+If you find this repository helpful, please consider citing our paper:
+
+```bibtex
+@article{xu2025challenger,
+  title={Challenger: Affordable Adversarial Driving Video Generation},
+  author={Xu, Zhiyuan and Li, Bohan and Gao, Huan-ang and Gao, Mingju and Chen, Yong and Liu, Ming and Yan, Chenxu and Zhao, Hang and Feng, Shuo and Zhao, Hao},
+  journal={arXiv preprint arXiv:2505.15880},
+  year={2025}
+}
+```
+
 ## Acknowledgements
 
 We would like to thank the developers of [Diffusion-ES](https://github.com/bhyang/diffusion-es) and [MagicDriveDiT](https://github.com/flymin/MagicDriveDiT), upon which our work is built.
