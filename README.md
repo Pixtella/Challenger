@@ -10,10 +10,11 @@ This repository contains the code for the following work:
 >  <img width="33%" src="assets/tsinghua.png">
 > </div>
 
+
 <br>
 <div align="center">
   <img src="https://img.shields.io/github/license/Pixtella/Challenger" alt="License">
-  <a href="https://arxiv.org/abs/"><img alt='arXiv' src="https://img.shields.io/badge/arXiv--red"></a>
+  <a href="https://arxiv.org/abs/2505.15880"><img alt='arXiv' src="https://img.shields.io/badge/arXiv-2505.15880-red"></a>
   <a href="https://huggingface.co/datasets/Pixtella/Adv-nuSc"><img alt='Dataset' src="https://img.shields.io/badge/Dataset-Adv--nuSc-blue"></a>
   <a href="https://pixtella.github.io/Challenger/"><img alt='Project Page' src="https://img.shields.io/badge/Webpage-Challenger-green"></a>
 </div>
@@ -184,6 +185,19 @@ data_infos = list(sorted(data["infos"], key=lambda e: (e["scene_token"], e["time
 ```
 4. Specify the path to the generated adversarial dataset in `{ROOT_OF_UNIAD}/projects/configs/stage2_e2e/base_e2e.py` and execute `{ROOT_OF_UNIAD}tools/uniad_create_data.sh` to extract metadata.
 5. Run `{ROOT_OF_UNIAD}/tools/uniad_dist_eval.sh` to evaluate.
+
+## Citation
+
+If you find this repository helpful, please consider citing our paper:
+
+```bibtex
+@article{xu2025challenger,
+  title={Challenger: Affordable Adversarial Driving Video Generation},
+  author={Xu, Zhiyuan and Li, Bohan and Gao, Huan-ang and Gao, Mingju and Chen, Yong and Liu, Ming and Yan, Chenxu and Zhao, Hang and Feng, Shuo and Zhao, Hao},
+  journal={arXiv preprint arXiv:2505.15880},
+  year={2025}
+}
+```
 
 ## Acknowledgements
 
