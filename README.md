@@ -1,10 +1,12 @@
-# Challenger: Affordable Adversarial Driving Video Generation
+# Challenger: Affordable Adversarial Driving Video
+Generation for Safety Testing
 
 This repository contains the code for the following work:
 
-> Challenger: Affordable Adversarial Driving Video Generation
+> Challenger: Affordable Adversarial Driving Video
+Generation for Safety Testing
 >
-> Authors: [Zhiyuan Xu](https://rzyxu.github.io/)<sup>\*</sup>, [Bohan Li](https://arlo0o.github.io/libohan.github.io/)<sup>\*</sup>, [Huan-ang Gao](https://c7w.tech/about/), Mingju Gao, Yong Chen, Ming Liu, Chenxu Yan, [Xin Jin](https://jinx-ustc.github.io/jinxin.github.io/), [Hang Zhao](https://hangzhaomit.github.io/), [Shuo Feng](https://www.fshuo.tech/), [Hao Zhao](https://sites.google.com/view/fromandto/)<sup>†</sup>  
+> Authors: [Zhiyuan Xu](https://rzyxu.github.io/)<sup>\*</sup>, [Bohan Li](https://arlo0o.github.io/libohan.github.io/)<sup>\*</sup>, [Huan-ang Gao](https://c7w.tech/about/), Mingju Gao, [Xin Jin](https://jinx-ustc.github.io/jinxin.github.io/), [Hang Zhao](https://hangzhaomit.github.io/), [Shuo Feng](https://www.fshuo.tech/), [Ya-Qin Zhang](https://air.tsinghua.edu.cn/info/1046/1207.htm), [Hao Zhao](https://sites.google.com/view/fromandto/)<sup>†</sup>  
 > 
 > <div align="center">
 >  <img width="33%" src="assets/tsinghua.png">
