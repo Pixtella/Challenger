@@ -11,6 +11,7 @@ Generation for Safety Testing
 > <div align="center">
 >  <img width="33%" src="assets/tsinghua.png">
 > </div>
+> In CoRLW 2025 (Oral), IASEAI 2026
 
 
 <br>
