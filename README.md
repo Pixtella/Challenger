@@ -1,5 +1,4 @@
-# Challenger: Affordable Adversarial Driving Video
-Generation for Safety Testing
+# Challenger: Affordable Adversarial Driving Video Generation for Safety Testing
 
 This repository contains the code for the following work:
 
